@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
     if (argc > 1)
     {
         for(int i=1; i<argc; i++)
-            cout<<argv[i]<<"°F is "<<CtoF(stof(argv[i]))<<"°C"<<endl;
+            cout<<argv[i]<<"°C is "<<CtoF(stof(argv[i]))<<"°F"<<endl;
     }
     return 0;
 }
